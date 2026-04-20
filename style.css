@@ -4,10 +4,12 @@
   --pico-typography-spacing-vertical: 1.5rem;
   --pico-form-element-spacing-vertical: 1rem;
   --pico-form-element-spacing-horizontal: 1.25rem;
+  --pico-font-family: "Open Sans", sans-serif;
+  --pico-font-weight: 300;
 }
 
 h1 {
-  --pico-font-family: Pacifico, cursive;
+  --pico-font-family: "Windsor", cursive;
   --pico-font-weight: 400;
   --pico-typography-spacing-vertical: 0.5rem;
 }
