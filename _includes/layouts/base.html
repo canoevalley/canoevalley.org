@@ -13,7 +13,7 @@
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.fluid.classless.min.css"
   >
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="{{ '/style.css' | url }}">
   <title>{{ title }}</title>
 </head>
   
@@ -23,11 +23,11 @@
     <nav>
       <ul>
 			{% if page.url != '/' %}
-        <li><a href="/">Home</a></li>
+        <li><a href="{{ '/' | url }}">Home</a></li>
 			{% endif %}
-        <li><a href="/about/">About</a></li>
-        <li><a href="/enroll/">Enroll</a></li>
-        <li><a href="/donate/">Give</a></li>
+        <li><a href="{{ '/about/' | url }}">About</a></li>
+        <li><a href="{{ '/enroll/' | url }}">Enroll</a></li>
+        <li><a href="{{ '/donate/' | url }}">Give</a></li>
       </ul>
     </nav>
 
