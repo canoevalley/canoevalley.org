@@ -1,0 +1,23 @@
+{
+  "name": "canoevalley.org",
+  "version": "1.0.0",
+  "description": "Cane Valley School website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/canoevalley/canoevalley.org"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/canoevalley/canoevalley.org/issues"
+  },
+  "homepage": "https://canoevalley.org",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.5"
+  }
+}
