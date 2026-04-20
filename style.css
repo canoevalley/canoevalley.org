@@ -8,9 +8,32 @@
   --pico-font-weight: 300;
 }
 
+body {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+nav {
+  float: right;
+  font-family: "DM Serif Display", serif;
+  padding-right: 2rem;
+}
+
+nav ul {
+  font-weight: 700;
+  font-size: 1.65rem;
+  padding-left: 2.5rem;
+}
+
+main p {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
 h1 {
-  --pico-font-family: "Young Sans", cursive;
-  --pico-font-weight: 400;
+  --pico-font-family: "DM Serif Display", serif;
+  --pico-font-weight: 700;
+  --pico-font-size: 2.5rem;
   --pico-typography-spacing-vertical: 0.5rem;
 }
 

@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&DM+Serif+Display:ital@0;1&family=Young+Serif&display=swap" rel="stylesheet">
+  
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.fluid.classless.min.css"
+  >
+  <link rel="stylesheet" href="/style.css">
+  <title>{{ title }}</title>
+</head>
+  
+<body>
+  
+  <header>
+    <nav>
+      <ul>
+			{% if page.url != '/' %}
+        <li><a href="/">Home</a></li>
+			{% endif %}
+        <li><a href="/about/">About</a></li>
+        <li><a href="/enroll/">Enroll</a></li>
+        <li><a href="/donate/">Give</a></li>
+      </ul>
+    </nav>
+
+  </header>
+  
+  <main>
+
+{{ content }}
+
+
+  </main>
+  
+  <footer>Copyright 2026 Canoe Valley School <a href="mailto:info@canoevalley.org">info@canoevalley.org</a></footer>
+
+</body>
+</html>
