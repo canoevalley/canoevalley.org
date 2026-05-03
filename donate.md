@@ -3,9 +3,10 @@ layout: layouts/base.html
 title: Support Canoe Valley
 ---
 
-<h1>Supporting Canoe Valley School</h1>
+# Supporting Canoe Valley School
 
-<p>
-Canoe Valley School is a registered Iowa non-profit corporation seeking 501(c)3 tax-deductible status.
+Canoe Valley School is a registered Iowa non-profit corporation, fiscally
+sponsored by ReRooted Connections, a 501(c)3 non-profit organization.
 
-</p>
+If you would like to make a tax-deductible contribution, contact us at <a
+href="mailto:info@canoevalley.org">info@canoevalley.org</a>.
