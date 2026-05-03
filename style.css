@@ -100,3 +100,17 @@ blockquote {
   font-weight: bold;
   font-style: italic;
 }
+
+.float-left {
+  float: left;
+  padding-right: 1rem;
+	padding-bottom: 1rem;
+}
+
+p.wrap-left:before {
+  content: "";
+  width: 10rem;
+  display: block;
+  overflow: hidden;
+  clear: right;
+}
