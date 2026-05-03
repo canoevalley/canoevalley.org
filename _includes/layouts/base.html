@@ -7,7 +7,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&DM+Serif+Display:ital@0;1&family=Young+Serif&display=swap" rel="stylesheet">
+  <link href="<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 
   <link
     rel="stylesheet"
@@ -20,22 +20,17 @@
 <body>
 
   <header>
-    <img height="150" width="96" class="logo" src="{{ '/files/CV_Logo.png' | url }}"/>
-    <div class="vertical-stack">
-      <div class="title">
-        <span>Canoe Valley School</span>
-      </div>
-      <nav>
-        <ul>
-        {% if page.url != '/' %}
-          <li><a href="{{ '/' | url }}">Home</a></li>
-        {% endif %}
-          <li><a href="{{ '/about/' | url }}">About</a></li>
-          <li><a href="{{ '/enroll/' | url }}">Enroll</a></li>
-          <li><a href="{{ '/donate/' | url }}">Give</a></li>
-        </ul>
-      </nav>
-    </div>
+    <img height="180" width="277" class="logo" src="{{ '/files/CV_Logotype.png' | url }}"/>
+    <nav>
+      <ul>
+      {% if page.url != '/' %}
+        <li><a href="{{ '/' | url }}">Home</a></li>
+      {% endif %}
+        <li><a href="{{ '/about/' | url }}">About</a></li>
+        <li><a href="{{ '/enroll/' | url }}">Enroll</a></li>
+        <li><a href="{{ '/donate/' | url }}">Give</a></li>
+      </ul>
+    </nav>
   </header>
 
   <main>

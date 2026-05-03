@@ -5,18 +5,19 @@ title: About Canoe Valley
 
 # About Canoe Valley School
 
-## <a href="{{ '/files/CV_Brochure.pdf' | url }}">Canoe Valley School Brochure</a> (PDF)
-
-
-## <a href="{{ '/files/CV_ProgramGuide.pdf' | url }}">Canoe Valley School Program Guide</a> (PDF)
-
+<figure>
+<figcaption>
+Our Mission:
+</figcaption>
 <blockquote>Canoe Valley School aims to support students as they cultivate
 their whole selves, and their connection to place, in order that they might
 find their path in life and proceed boldly, with creativity, care and
 competency. Students, teachers, parents, and community members pursue this work
 together through self-directed, relational learning, and as a whole the school
 community aims to serve the place we live, and to create a more beautiful,
-just, and abundant world.</blockquote>
+just, and abundant world.
+</blockquote>
+</figure>
 
 We are an emerging secondary school in rural Winneshiek County, located on
 a 40-acre campus tucked away in a lush tributary valley of Canoe Creek. Our
@@ -51,4 +52,11 @@ to academic subject areas, and offer  supplemental programs in reading and
 math. Co-curricular offerings include a mentorship program, apprenticeship
 opportunities, student participation in school committees and governance, and
 much more.
+
+## Resources
+
+<a href="{{ '/files/CV_Brochure.pdf' | url }}">Canoe Valley School Brochure</a> (PDF)
+
+
+<a href="{{ '/files/CV_ProgramGuide.pdf' | url }}">Canoe Valley School Program Guide</a> (PDF)
 

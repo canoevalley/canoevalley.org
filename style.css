@@ -6,16 +6,16 @@
   --pico-form-element-spacing-horizontal: 1.25rem;
   --pico-font-family: "Open Sans", sans-serif;
   --pico-font-weight: 300;
-  --pico-primary: #2d5a27;
-  --pico-primary-hover: #3d7a35; /* slightly lighter on hover */
-
+  --pico-primary: #7b1917;
+  --pico-underline: #7b1917;
 }
 
 a {
-  color: #2d5a27;
+  color: #7b1917;
+  text-decoration-color: #7b1917;
 }
 a:hover {
-  color: #3d7a35;
+  color: #88302e;
 }
 
 body {
@@ -23,57 +23,59 @@ body {
   padding-right: 1rem;
 }
 
-/* Container for menu items */
-header {
-  display: flex;
-  border-bottom: 5px solid ;
-  border-image: linear-gradient(to right, #f9fdf8, #3d7a35) 1;
-}
-.vertical-stack {
-  display: flex;
-  flex-grow: 1;
-  flex-direction: column; /* Ensures inner divs stack vertically */
+body > header {
+  padding-left: 0px;
 }
 
+body > main {
+  padding-left: 0px;
+}
+
+body > footer {
+  padding-left: 0px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 5px solid #de7d26 ;
+}
+
+/* Container for menu items */
 header nav {
   margin-left: auto;
 }
 
 header nav ul {
-  font-family: "DM Serif Display", serif;
   font-weight: 700;
   font-size: 1.35rem;
   padding-left: 0.5rem;
   padding-right: 0rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-/* Media query for mobile (typically screens under 768px) */
-@media (max-width: 768px) {
-header nav ul {
-}
-}
-
-header div.title {
-  padding-right: auto;
-}
-
-header span {
-    font-family: "DM Serif Display", serif;
-    font-weight: 700;
-    font-size: 2.65rem;
-}
-
-
-main p {
-  margin-left: 2rem;
-  margin-right: 2rem;
+nav li {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  flex-grow: 1;
+  flex-shrink: 1;
 }
 
 h1 {
-  --pico-font-family: "DM Serif Display", serif;
   --pico-font-weight: 700;
-  --pico-font-size: 1.6rem;
+  --pico-font-size: 1.9rem;
   --pico-typography-spacing-vertical: 0.5rem;
+  text-transform: uppercase;
+  color: #7b1917;
+}
+
+h2 {
+  --pico-font-weight: 700;
+  --pico-font-size: 1.4rem;
+  --pico-typography-spacing-vertical: 0.5rem;
+  text-transform: uppercase;
+  color: #7b1917;
 }
 
 button {
@@ -81,9 +83,16 @@ button {
 }
 
 footer {
-  font-family: "DM Serif Display", serif;
   font-weight: 400;
   font-size: 0.85rem;
   padding-left: 0.5rem;
   padding-right: 0rem;
+}
+
+blockquote {
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-weight: bold;
+  font-style: italic;
 }
