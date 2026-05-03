@@ -60,3 +60,43 @@ much more.
 
 <a href="{{ '/files/CV_ProgramGuide.pdf' | url }}">Canoe Valley School Program Guide</a> (PDF)
 
+## Who Are We
+
+Canoe Valley School is governed by a Board of local parents and educators.
+
+<strong>Rachael Munn</strong> grew up in Dubuque and graduated from the University of Iowa with
+a degree in English. After several years of teaching English in China and
+Taiwan, Rachael returned to the University of Iowa where she earned a masters
+degree in Special Education in 2014. Rachael taught at the secondary level for
+the Iowa City Community School District until 2022, when her family moved to
+Decorah to become the caretakers and project directors of ReRooted
+Connections. Rachael now teaches part-time at Kinderhaus preschool and is a
+mentor for Red Oak Outdoor School. She is the parent of twin daughters Althea
+and Eleanor.
+
+
+
+<strong>Nate Preus</strong> grew up in Decorah, attended and was trained as a teacher at Luther
+College, taught secondary English at a public school in rural Wisconsin and at
+a charter school in Milwaukee. He then pursued a PhD in English at New York
+University, where he was also a part-time instructor, and later left academia
+to pursue another career path. Since his years at Luther he has studied
+non-traditional education, and as a Fulbright grantee in the late 00s he
+researched and published work on alternative pedagogy. He is the father of
+Ingrid.
+
+
+
+<strong>Kevan Klosterwill</strong> is a landscape designer and planner with Perez Planning, and
+Design, where he focuses especially on public space master planning and
+visioning. Previous education experience includes teaching at the University
+of Virginia, during and after pursuing his PhD in the Constructed Environment
+there. He is the father of Alden and Gwendolyn.
+
+<strong>Neil Martinsen-Burrell</strong> is a software engineer and former
+college professor. He has a PhD in Applied Mathematics and taught at Wartburg
+College before leaving academia for a career in technology. His family has
+lived in Iowa since 2006 and Decorah since 2013. He has three children ranging
+from elementary- to college-aged and they have been homeschooled and attended
+Montessori, Waldorf, private, and public schools.
+

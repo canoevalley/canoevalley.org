@@ -18,6 +18,10 @@ a:hover {
   color: #88302e;
 }
 
+strong {
+  font-weight: 700;
+}
+
 body {
   padding-left: 1rem;
   padding-right: 1rem;
