@@ -45,7 +45,7 @@ jobs:
         working-directory: ${{ env.BUILD_PATH }}
 
       - name: Build with Eleventy
-        run: npx @11ty/eleventy
+        run: npx @11ty/eleventy --pathprefix=""
         working-directory: ${{ env.BUILD_PATH }}
 
       - name: Upload artifact
