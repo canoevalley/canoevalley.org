@@ -9,4 +9,6 @@ Canoe Valley School is a registered Iowa non-profit corporation, fiscally
 sponsored by ReRooted Connections, a 501(c)3 non-profit organization.
 
 If you would like to make a tax-deductible contribution, contact us at <a
-href="mailto:info@canoevalley.org">info@canoevalley.org</a>.
+href="mailto:info@canoevalley.org">info@canoevalley.org</a> or you can <a
+href="https://secure.givelively.org/donate/pepperfield-project/canoe-valley-school">contribute
+online</a>. 
