@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="icon" type="image/x-icon" href="{{ 'files/favicon.ico' | url }}">
+  <link rel="icon" type="image/x-icon" href="/files/favicon.ico">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,22 +15,22 @@
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.fluid.classless.min.css"
   >
-  <link rel="stylesheet" href="{{ '/style.css' | url }}">
+  <link rel="stylesheet" href="/style.css">
   <title>{{ title }}</title>
 </head>
 
 <body>
 
   <header>
-    <img height="180" width="277" class="logo" src="{{ '/files/CV_Logotype.png' | url }}"/>
+    <img height="180" width="277" class="logo" src="/files/CV_Logotype.png"/>
     <nav>
       <ul>
       {% if page.url != '/' %}
-        <li><a href="{{ '/' | url }}">Home</a></li>
+        <li><a href="/">Home</a></li>
       {% endif %}
-        <li><a href="{{ '/about/' | url }}">About</a></li>
-        <li><a href="{{ '/enroll/' | url }}">Enroll</a></li>
-        <li><a href="{{ '/donate/' | url }}">Give</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/enroll/">Enroll</a></li>
+        <li><a href="/donate/">Give</a></li>
       </ul>
     </nav>
   </header>
