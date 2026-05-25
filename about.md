@@ -60,7 +60,7 @@ much more.
 
 <a href="/files/CV_ProgramGuide.pdf">Canoe Valley School Program Guide</a> (PDF)
 
-## Who Are We
+## Who We Are
 
 Canoe Valley School is governed by a Board of local parents and educators.
 
