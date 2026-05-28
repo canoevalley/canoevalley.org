@@ -55,7 +55,7 @@ much more.
 
 ## Resources
 
-<a href="/files/CV_Brochure.pdf'">Canoe Valley School Brochure</a> (PDF)
+<a href="/files/CV_Brochure.pdf">Canoe Valley School Brochure</a> (PDF)
 
 
 <a href="/files/CV_ProgramGuide.pdf">Canoe Valley School Program Guide</a> (PDF)
