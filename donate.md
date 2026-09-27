@@ -12,3 +12,5 @@ If you would like to make a tax-deductible contribution, contact us at <a
 href="mailto:info@canoevalley.org">info@canoevalley.org</a> or you can <a
 href="https://secure.givelively.org/donate/pepperfield-project/canoe-valley-school">contribute
 online</a>. 
+
+<script async src="https://eocampaign1.com/form/86c69992-ba8d-11f1-a7d8-2345e5741418.js" data-form="86c69992-ba8d-11f1-a7d8-2345e5741418"></script>
