@@ -114,6 +114,7 @@ h3 { font-family: var(--sans); font-weight: 600; font-size: 1.1rem; line-height:
   .has-nav-toggle .site-nav a[aria-current="page"] { box-shadow: none; color: var(--maroon); }
   .has-nav-toggle .site-nav li:last-child { border-top: 0; padding-top: .75rem; }
   .has-nav-toggle .site-nav .nav-give { display: inline-block; padding: .65rem 1.4rem; }
+  .has-nav-toggle .site-nav a.nav-give { box-shadow: none; color: #fff; }
 }
 
 /* ---------- Buttons ---------- */
