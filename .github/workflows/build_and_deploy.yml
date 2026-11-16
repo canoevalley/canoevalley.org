@@ -30,23 +30,26 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
 
-      - name: Setup Node
-        uses: actions/setup-node@v5
-        with:
-          node-version: "20"
-          cache: npm
+# completely static site, no build
+#      - name: Setup Node
+#        uses: actions/setup-node@v5
+#        with:
+#          node-version: "20"
+#          cache: npm
 
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
 
-      - name: Install dependencies
-        run: npm ci
-        working-directory: ${{ env.BUILD_PATH }}
+# completely static site, no build
+#      - name: Install dependencies
+#        run: npm ci
+#        working-directory: ${{ env.BUILD_PATH }}
 
-      - name: Build with Eleventy
-        run: npx @11ty/eleventy
-        working-directory: ${{ env.BUILD_PATH }}
+# completely static site, no build
+#      - name: Build with Eleventy
+#        run: npx @11ty/eleventy
+#        working-directory: ${{ env.BUILD_PATH }}
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
